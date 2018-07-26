@@ -19,6 +19,8 @@ public class SaveOrUpdate {
             int adminId=1;
             Admin updateAdmin =sessions.get(Admin.class, adminId);
 
+
+
             updateAdmin.setAdminEmail("goldAdmin@accenture.com");
             updateAdmin.setAdminLastname("patricia");
             updateAdmin.setAdminPasword("12345");
